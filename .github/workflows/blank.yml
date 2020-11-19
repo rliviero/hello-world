@@ -19,6 +19,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+        run: git push --mirror https://rliviero/pbnudt64txy2r3axxlsgusigqcqikgmgeee43iyizjmcpabgtwcq@gv-bern@dev.azure.com/gv-bern/hello_world/_git/hello_world
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
